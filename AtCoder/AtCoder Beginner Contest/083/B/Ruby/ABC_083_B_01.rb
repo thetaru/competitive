@@ -7,7 +7,7 @@ def calc_digit_sum(n)
     digit_sum
 end
 
-(N, A, B) = gets.chomp.split(" ").map(&:to_i)
+N, A, B = gets.chomp.split(" ").map(&:to_i)
 
 sum = 0
 
